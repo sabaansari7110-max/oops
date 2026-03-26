@@ -39,9 +39,12 @@ class Dog:
     # Instance method
     def bark(self):
         return f"{self.name} says Woof!"
-Class Attributes vs Instance Attributes
+# Class Attributes vs Instance Attributes
 Class Attributes: Defined directly in the class body. Shared among all instances.
+<br>
 Instance Attributes: Defined inside __init__ (or other methods) using self. Unique to each object.
+<br>
+```python
 class Car:
     # Class attribute
     wheels = 4
@@ -60,19 +63,26 @@ print(car2.wheels)   # 4
 
 Car.wheels = 6       # Changes for all instances
 print(car1.wheels)   # 6
-The self Parameter
+```
+# The self Parameter
 self represents the instance of the class. It allows you to access attributes and methods within the class.
+<br>
 It is the first parameter of every instance method.
+<br>
 You don't pass it manually — Python does it automatically when you call the method on an object.
+```python
 class Person:
     def __init__(self, name):
         self.name = name   # self.name is instance attribute
     
     def introduce(self):
         print(f"Hi, I'm {self.name}!")   # Accessing via self
-The __init__ Constructor
+```
+# The __init__ Constructor
 The __init__ method is a special method (constructor) that gets called automatically when you create a new object.
+<br>
 It is used to initialize the object's attributes.
+```python
 class Student:
     def __init__(self, name, roll_no, marks=0):
         self.name = name
@@ -84,12 +94,18 @@ class Student:
 
 s1 = Student("Alice", 101, 95)
 s1.display()
-Static Methods
+```
+# Static Methods
 Defined using the @staticmethod decorator.
+<br>
 Do not receive self or cls as the first argument.
+<br>
 Behave like regular functions but logically belong to the class.
+<br>
 Cannot access or modify instance or class attributes.
+<br>
 Use case: Utility functions related to the class.
+```python
 class MathUtils:
     @staticmethod
     def add(x, y):
@@ -101,20 +117,35 @@ class MathUtils:
 
 print(MathUtils.add(5, 7))        # 12
 print(MathUtils.is_even(10))      # True
-How to Run
+```
+# How to Run
+<br>
 Clone the repository:
+<br>
 git clone https://github.com/yourusername/python-oops-repo.git
+<br>
 cd python-oops-repo
+<br>
 Run any example file:
+<br>
 python examples/01_class_basics.py
+<br>
 All examples are in the examples/ folder with clear filenames.
-Contributing
-Feel free to contribute!
-Add more examples
-Improve explanations
-Fix bugs or add new OOP topics (Inheritance, Polymorphism, etc.)
-Fork the repo
-Create a feature branch
-Commit your changes
-Open a Pull Request
+## Contributing
+1.Feel free to contribute!
+<br>
+2.Add more examples
+<br>
+3.Improve explanations
+<br>
+4.Fix bugs or add new OOP topics (Inheritance, Polymorphism, etc.)
+<br>
+5.Fork the repo
+<br>
+6.Create a feature branch
+<br>
+7.Commit your changes
+<br>
+8.Open a Pull Request
+<br>
 ⭐ Star this repo if you found it helpful!
