@@ -122,15 +122,19 @@ print(MathUtils.is_even(10))      # True
 <br>
 Clone the repository:
 <br>
-git clone https://github.com/yourusername/python-oops-repo.git
+https://github.com/sabaansari7110-max/oops.git
 <br>
-cd python-oops-repo
+
 <br>
 Run any example file:
 <br>
-python examples/01_class_basics.py
+       python examples/01_class_basics.py
 <br>
 All examples are in the examples/ folder with clear filenames.
+
+## Who this is for
+This repo is built for beginners learning python who want to understand OOPs from the ground up with clear, practical examples.
+<br>
 
 ## Contributing
 1.Feel free to contribute!
