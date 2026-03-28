@@ -136,6 +136,11 @@ All examples are in the examples/ folder with clear filenames.
 This repo is built for beginners learning python who want to understand OOPs from the ground up with clear, practical examples.
 <br>
 
+## Author
+Created as part of Python learning journey to strengthen programming fundamentals and logical thinking.
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project with proper attribution.
 ## Contributing
 1.Feel free to contribute!
 <br>
