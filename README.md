@@ -128,7 +128,7 @@ https://github.com/sabaansari7110-max/oops.git
 <br>
 Run any example file:
 <br>
-       python examples/ 01_class.py
+    ```    python examples/ 01_class.py
 <br>
 All examples are in the examples/ folder with clear filenames.
 
