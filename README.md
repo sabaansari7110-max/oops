@@ -2,11 +2,11 @@
 This repository is designed for beginners and intermediate Python developers who want to deeply understand Object-Oriented Programming. It covers core OOP concepts with simple, well-commented code examples, real-world analogies, and mini-projects.
 
 **Topics Covered:**
-- Classes and Objects
-- Class Attributes vs Instance Attributes
-- The `self` parameter
-- `__init__` Constructor
-- Instance Methods, Class Methods, and Static Methods
+- Classes and Objects.
+- Class Attributes vs Instance Attributes.
+- The `self` parameter.
+- `__init__` Constructor.
+- Instance Methods, Class Methods, and Static Methods.
 - And more (Inheritance, Encapsulation, Polymorphism, etc. — coming soon)
 
 Perfect for students, self-learners, and anyone preparing for Python interviews or building robust applications.
