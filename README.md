@@ -11,7 +11,7 @@ This repository is designed for beginners and intermediate Python developers who
 
 Perfect for students, self-learners, and anyone preparing for Python interviews or building robust applications.
 
-## 🗂️ Table of Contents
+## Table of Contents
 
 - [What is a Class?](#what-is-a-class)
 - [Class Attributes vs Instance Attributes](#class-attributes-vs-instance-attributes)
